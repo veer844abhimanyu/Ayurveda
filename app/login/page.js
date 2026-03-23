@@ -6,7 +6,7 @@ export default function LoginPage() {
     <div className="bg-[#A3A98B] min-h-screen">
 
       {/* NAVBAR */}
-      <nav className="bg-[#0f3d3e] text-white flex justify-between items-center px-10 py-3">
+      {/* <nav className="bg-[#0f3d3e] text-white flex justify-between items-center px-10 py-3">
         <div className="flex items-center gap-2 font-bold text-lg">
           <Image src="/logo.png" alt="logo" width={32} height={32} />
           AYUSH YOGI
@@ -19,7 +19,7 @@ export default function LoginPage() {
           <li><Link href="/contact">CONTACT</Link></li>
           <li><Link href="/login">LOGIN / SIGN UP</Link></li>
         </ul>
-      </nav>
+      </nav> */}
 
       {/* MAIN */}
       <div className="flex flex-col md:flex-row items-center justify-between px-10 md:px-20 py-16 gap-10">
